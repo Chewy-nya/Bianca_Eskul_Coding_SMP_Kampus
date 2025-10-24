@@ -1,0 +1,48 @@
+{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body
+    display: flex;
+    flex-direction: colum;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+display: flex;
+justify-content: center;
+background-color: blanchedalmond;
+padding: 10px;
+margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text text-decoration: none;
+    color: white;
+    font weight: bold;
+}
+
+nav ul li a :hover,
+nav ul li a.active {
+    color: white
+}
+
+folder {
+    background-color: rgb(212, 217, 221);
+    color:black;
+    text-align: center;
+    padding: 15px 0;
+}
