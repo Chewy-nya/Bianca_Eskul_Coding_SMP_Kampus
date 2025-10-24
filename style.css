@@ -40,9 +40,16 @@ nav ul li a.active {
     color: white
 }
 
+.contact form{
+    display: flex:
+    flex-direction: column;
+    gap: 10px;
+
+}
 folder {
     background-color: rgb(212, 217, 221);
     color:black;
     text-align: center;
     padding: 15px 0;
+
 }
